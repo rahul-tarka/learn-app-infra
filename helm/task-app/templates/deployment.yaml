@@ -18,5 +18,8 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: task-app-secret
           resources:
             {{- toYaml .Values.resources | nindent 12 }}

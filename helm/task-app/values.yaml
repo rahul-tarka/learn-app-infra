@@ -1,5 +1,5 @@
 image:
-  repository: your-dockerhub/task-app
+  repository: rrathod1108/task-app
   tag: "latest"
   pullPolicy: IfNotPresent
 
