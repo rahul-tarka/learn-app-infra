@@ -1,4 +1,4 @@
 image:
-  tag: "latest"
+  tag: "f6079aa8f67c4a47528ae55ab439156b34ed727c"
 
 replicaCount: 3
